@@ -487,6 +487,7 @@ const styles = StyleSheet.create({
   },
   popView: {
     width: '100%',
+    justifyContent: 'flex-end',
   },
   popBtnBack: {
     width: '100%',

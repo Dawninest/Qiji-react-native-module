@@ -31,30 +31,35 @@ const App: () => Node = () => {
         <NavigationContainer>
           <Stack.Navigator initialRouteName="MainList">
             <Stack.Screen
-              name="MainList"
-              component={MainList}
-              options={{title: '组件例子'}}
-            />
-            <Stack.Screen
-              name="SearchDemo"
-              component={SearchDemo}
-              options={{title: '搜索栏示例子'}}
-            />
-            <Stack.Screen
-              name="PopDemo"
-              component={PopDemo}
-              options={{title: '弹窗例子'}}
-            />
-            <Stack.Screen
               name="DatePickerDemo"
               component={DatePickerDemo}
               options={{title: '日期选择期'}}
             />
-            <Stack.Screen
-              name="ScheduleDemo"
-              component={ScheduleDemo}
-              options={{title: '日期选择期'}}
-            />
+            {/*<Stack.Screen*/}
+            {/*  name="MainList"*/}
+            {/*  component={MainList}*/}
+            {/*  options={{title: '组件例子'}}*/}
+            {/*/>*/}
+            {/*<Stack.Screen*/}
+            {/*  name="SearchDemo"*/}
+            {/*  component={SearchDemo}*/}
+            {/*  options={{title: '搜索栏示例子'}}*/}
+            {/*/>*/}
+            {/*<Stack.Screen*/}
+            {/*  name="PopDemo"*/}
+            {/*  component={PopDemo}*/}
+            {/*  options={{title: '弹窗例子'}}*/}
+            {/*/>*/}
+            {/*<Stack.Screen*/}
+            {/*  name="DatePickerDemo"*/}
+            {/*  component={DatePickerDemo}*/}
+            {/*  options={{title: '日期选择期'}}*/}
+            {/*/>*/}
+            {/*<Stack.Screen*/}
+            {/*  name="ScheduleDemo"*/}
+            {/*  component={ScheduleDemo}*/}
+            {/*  options={{title: '日程展示页'}}*/}
+            {/*/>*/}
           </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaView>
